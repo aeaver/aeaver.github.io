@@ -1,0 +1,87 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: purple;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#title h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#top {
+    height: 200px;
+}
+
+#discord {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#additional-content {
+    padding: 50px;
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+}
+
+#additional-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#additional-content p {
+    font-size: 18px;
+}
+
+#gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gallery p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#gallery .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#gallery img {
+    transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+    margin: 60px;
+}
+
+#gallery img:hover {
+    transform: scale(1.3);
+    margin: 20px;
+    height: 200px;
+}
